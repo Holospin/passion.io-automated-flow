@@ -1,0 +1,457 @@
+{
+  "id": "fd6e9af3-675d-4721-94a2-eca2b0692fea",
+  "version": "2.0",
+  "name": "passion.io",
+  "url": "https://passionate.io/build-an-app",
+  "tests": [{
+    "id": "9caa8667-fa51-4ac2-8744-98ff32422546",
+    "name": "Design",
+    "commands": [{
+      "id": "ea295d39-6aa8-4a35-822c-f4fab624d88b",
+      "comment": "",
+      "command": "open",
+      "target": "https://passionate.io/build-an-app/lookAndFeel",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "88195ce7-7725-4725-861f-717d62cd54f9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "2560x1415",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dcf23bab-21b7-4d1b-8413-1f0480d43907",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.sc-fzonjX",
+      "targets": [
+        ["css=.sc-fzonjX", "css:finder"],
+        ["xpath=//p[@type='m']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/header/div/span/div/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Create your app')]", "xpath:innerText"]
+      ],
+      "value": "Create your app"
+    }, {
+      "id": "ecde7330-9d3d-483c-92aa-cf6205f10314",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.Xqdgf",
+      "targets": [
+        ["css=.Xqdgf", "css:finder"],
+        ["xpath=//div[@id='root']/header/div/div/div/a/div/p", "xpath:idRelative"],
+        ["xpath=//a/div/p", "xpath:position"]
+      ],
+      "value": "Select a template"
+    }, {
+      "id": "969b8ffd-0b8b-45b9-bd95-36b27f75ec97",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.sc-fzqyvX",
+      "targets": [
+        ["css=.sc-fzqyvX", "css:finder"],
+        ["xpath=//div[@id='root']/header/div/div/div", "xpath:idRelative"],
+        ["xpath=//div/div/div", "xpath:position"]
+      ],
+      "value": "Choose app name"
+    }, {
+      "id": "a9f37644-0dc9-41fa-a989-0e672c88d6c6",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.sc-fzqyvX",
+      "targets": [
+        ["css=.sc-fzqyvX", "css:finder"],
+        ["xpath=//div[@id='root']/header/div/div/div", "xpath:idRelative"],
+        ["xpath=//div/div/div", "xpath:position"]
+      ],
+      "value": "Create an account"
+    }, {
+      "id": "72b5387c-dfa0-4632-980d-68c34dcad355",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.fFwmIm",
+      "targets": [
+        ["css=.fFwmIm", "css:finder"],
+        ["xpath=//div[@id='root']/header/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": "Cancel"
+    }, {
+      "id": "655b6dab-b8f8-4a49-8431-f69fa3b6669d",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.sc-pBzUF",
+      "targets": [
+        ["css=.sc-pBzUF", "css:finder"],
+        ["xpath=(//p[@type='m'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/p", "xpath:idRelative"],
+        ["xpath=//div/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'What’s your app about?')]", "xpath:innerText"]
+      ],
+      "value": "What’s your app about?"
+    }, {
+      "id": "e34bd655-a5b4-45d9-84be-2c47ddba4840",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.eLtgiS",
+      "targets": [
+        ["css=.eLtgiS", "css:finder"],
+        ["xpath=//p[@type='l']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/p[2]", "xpath:idRelative"],
+        ["xpath=//p[2]", "xpath:position"],
+        ["xpath=//p[contains(.,'This will show you proven templates for your market. (You can change this anytime)')]", "xpath:innerText"]
+      ],
+      "value": "This will show you proven templates for your market. (You can change this anytime)"
+    }, {
+      "id": "12fc3f40-0942-4532-ba5e-f3c045d60d57",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.sc-pJkiN",
+      "targets": [
+        ["css=.sc-pJkiN", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div/div/form/div/label", "xpath:idRelative"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'App Category')]", "xpath:innerText"]
+      ],
+      "value": "App Category"
+    }, {
+      "id": "683349cc-e369-4c7a-a4e3-f3580a5e2987",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.fKSSVy",
+      "targets": [
+        ["css=.fKSSVy", "css:finder"],
+        ["xpath=//p[@type='xs']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/div/div/div/p", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Templates')]", "xpath:innerText"]
+      ],
+      "value": "Templates"
+    }, {
+      "id": "a81ffd55-4caf-4088-ae04-592d2b3fb323",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.igIYXb",
+      "targets": [
+        ["css=.igIYXb", "css:finder"],
+        ["xpath=(//p[@type='xs'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/div/div/div/p[2]", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div/p[2]", "xpath:position"],
+        ["xpath=//p[contains(.,'Customize colors')]", "xpath:innerText"]
+      ],
+      "value": "Customize colors"
+    }, {
+      "id": "8b903c8e-c5c9-41c1-8eb4-364dc581d32e",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.sc-prorn > svg",
+      "targets": [
+        ["css=.sc-prorn > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "26138e11-3dc4-4e24-9cbb-866a99331f51",
+      "comment": "",
+      "command": "click",
+      "target": "name=category",
+      "targets": [
+        ["name=category", "name"],
+        ["css=.sc-qYSYK", "css:finder"],
+        ["xpath=//select[@name='category']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/div/form/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f2746dc9-87f6-41ff-9aa6-82ae3783a8e2",
+      "comment": "",
+      "command": "select",
+      "target": "name=category",
+      "targets": [],
+      "value": "label=Shopping"
+    }, {
+      "id": "87a3e261-a4a5-4a7e-b2bd-f206b05e9dc7",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.sc-paXsP",
+      "targets": [
+        ["css=.sc-paXsP", "css:finder"],
+        ["xpath=//a[contains(text(),'next step')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div/div/div/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/build-an-app/name')])[2]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"]
+      ],
+      "value": "next step "
+    }, {
+      "id": "8bd06d52-8003-4484-9a4d-1e8580e02fb4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-pQSRh:nth-child(1)",
+      "targets": [
+        ["css=.sc-pQSRh:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div/div/div/div[2]/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c444f4ba-f3e3-43e4-90c1-03812b680307",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-AxirZ:nth-child(1)",
+      "targets": [
+        ["css=.sc-AxirZ:nth-child(1)", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a2249c1-69f5-471b-bc71-ba58b074f504",
+      "comment": "",
+      "command": "click",
+      "target": "name=appName",
+      "targets": [
+        ["name=appName", "name"],
+        ["css=.sc-fznWOq", "css:finder"],
+        ["xpath=//input[@name='appName']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/form/div/div/label/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3252af74-6e17-4af2-90c0-e480cf0d1d4a",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.sc-fzoxnE",
+      "targets": [
+        ["css=.sc-fzoxnE", "css:finder"],
+        ["xpath=(//p[@type='m'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/p", "xpath:idRelative"],
+        ["xpath=//div/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Choose your perfect app name')]", "xpath:innerText"]
+      ],
+      "value": "Choose your perfect app name"
+    }, {
+      "id": "776a0f0b-99aa-42b1-b6a1-7a92f4827a09",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.sc-pRTZB",
+      "targets": [
+        ["css=.sc-pRTZB", "css:finder"],
+        ["xpath=//p[@type='l']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/p[2]", "xpath:idRelative"],
+        ["xpath=//p[2]", "xpath:position"],
+        ["xpath=//p[contains(.,'You can change this any time')]", "xpath:innerText"]
+      ],
+      "value": "You can change this any time"
+    }, {
+      "id": "a52f22fa-f467-4b1b-8530-dfef6d131f68",
+      "comment": "",
+      "command": "click",
+      "target": "name=appName",
+      "targets": [
+        ["name=appName", "name"],
+        ["css=.sc-fznWOq", "css:finder"],
+        ["xpath=//input[@name='appName']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/form/div/div/label/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e9d5e2c-3599-4eeb-a2a3-ecb4fe14bce7",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "name=appName",
+      "targets": [
+        ["name=appName", "name"],
+        ["css=.sc-fznWOq", "css:finder"],
+        ["xpath=//input[@name='appName']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/form/div/div/label/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "95720f9d-0ed7-4623-9ccb-2d9d8cbfc36c",
+      "comment": "",
+      "command": "type",
+      "target": "name=appName",
+      "targets": [
+        ["name=appName", "name"],
+        ["css=.sc-fznWOq", "css:finder"],
+        ["xpath=//input[@name='appName']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/form/div/div/label/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "qwe"
+    }, {
+      "id": "41cdbda7-a6e4-49e8-a690-89fa55e35a57",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-psCJM",
+      "targets": [
+        ["css=.sc-psCJM", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/form/div[2]/button", "xpath:idRelative"],
+        ["xpath=//form/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f1c37ed3-33fc-492c-a080-99b1bf3edad6",
+      "comment": "",
+      "command": "click",
+      "target": "name=appName",
+      "targets": [
+        ["name=appName", "name"],
+        ["css=.sc-fznWOq", "css:finder"],
+        ["xpath=//input[@name='appName']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/form/div/div/label/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5c8235ff-ce6f-4d88-bb1b-bbe40a00f354",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.sc-fzqKxP",
+      "targets": [
+        ["css=.sc-fzqKxP", "css:finder"],
+        ["xpath=(//p[@type='s'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/form/div/div/div/div/p", "xpath:idRelative"],
+        ["xpath=//form/div/div/div/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Oops... Name already taken.')]", "xpath:innerText"]
+      ],
+      "value": "Oops... Name already taken."
+    }, {
+      "id": "765f52dc-0801-4177-a9ca-08227b631ecb",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.sc-pANHa",
+      "targets": [
+        ["css=.sc-pANHa", "css:finder"],
+        ["xpath=(//p[@type='s'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/form/div/div/div/div/p[2]", "xpath:idRelative"],
+        ["xpath=//form/div/div/div/div/p[2]", "xpath:position"],
+        ["xpath=//p[contains(.,'Unfortunately someone is using your desired name. Please try again.')]", "xpath:innerText"]
+      ],
+      "value": "Unfortunately someone is using your desired name. Please try again."
+    }, {
+      "id": "fee26481-6130-4b6b-9ecc-8e69fa5ddc38",
+      "comment": "",
+      "command": "click",
+      "target": "name=appName",
+      "targets": [
+        ["name=appName", "name"],
+        ["css=.sc-fznWOq", "css:finder"],
+        ["xpath=//input[@name='appName']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/form/div/div/label/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aa4e5b4e-26e6-4f34-91cb-49ce4f314bc9",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "name=appName",
+      "targets": [
+        ["name=appName", "name"],
+        ["css=.sc-fznWOq", "css:finder"],
+        ["xpath=//input[@name='appName']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/form/div/div/label/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "46a7a2db-6f75-493f-9695-f3aca0af0f96",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return new Date();",
+      "targets": [],
+      "value": "currentdate"
+    }, {
+      "id": "bda0f43c-c1e7-4660-9038-40f7c01eb021",
+      "comment": "",
+      "command": "type",
+      "target": "name=appName",
+      "targets": [
+        ["name=appName", "name"],
+        ["css=.sc-fznWOq", "css:finder"],
+        ["xpath=//input[@name='appName']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/form/div/div/label/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${currentdate}"
+    }, {
+      "id": "3c08a194-6d18-43d0-9cc0-ada75f603c87",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-psCJM",
+      "targets": [
+        ["css=.sc-psCJM", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/form/div[2]/button", "xpath:idRelative"],
+        ["xpath=//form/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "47cae204-f8ef-421b-a907-d0f449a7c76d",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.sc-fzqKxP",
+      "targets": [
+        ["css=.sc-fzqKxP", "css:finder"],
+        ["xpath=//p[@type='s']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/form/div/div/div/div/p", "xpath:idRelative"],
+        ["xpath=//form/div/div/div/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Congratulations! Your app name is available…')]", "xpath:innerText"]
+      ],
+      "value": "Congratulations! Your app name is available…"
+    }, {
+      "id": "498d88fa-aaa3-4e11-a4d7-e627c39ed2d9",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.sc-pANHa",
+      "targets": [
+        ["css=.sc-pANHa", "css:finder"],
+        ["xpath=(//p[@type='s'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/form/div/div/div/div/p[2]", "xpath:idRelative"],
+        ["xpath=//form/div/div/div/div/p[2]", "xpath:position"],
+        ["xpath=//p[contains(.,'But it might not be for long. Complete the following steps to secure your app name.')]", "xpath:innerText"]
+      ],
+      "value": "But it might not be for long. Complete the following steps to secure your app name."
+    }, {
+      "id": "201dd5f8-587b-439c-bde2-33f232b1af35",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.sc-paXsP",
+      "targets": [
+        ["css=.sc-paXsP", "css:finder"],
+        ["xpath=//a[contains(text(),'next step')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div/div/form/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/build-an-app/signup')])[2]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"]
+      ],
+      "value": "next step "
+    }, {
+      "id": "0eb781c8-19e6-4622-ab68-7cf5636d57f6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-paXsP",
+      "targets": [
+        ["css=.sc-paXsP", "css:finder"],
+        ["xpath=//a[contains(text(),'next step')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div/div/form/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/build-an-app/signup')])[2]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "56fd5232-9fc1-41a1-99f3-b33ef25ba699",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["9caa8667-fa51-4ac2-8744-98ff32422546"]
+  }],
+  "urls": ["https://passionate.io/build-an-app"],
+  "plugins": []
+}
